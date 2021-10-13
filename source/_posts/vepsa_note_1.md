@@ -1,14 +1,16 @@
----
 title: Vespa ai 筆記 (一)
-date: 2020-08-02 15:57:43
-tags: 
-    - Vespa
-    - Yahoo
-    - Opensource
-    - Search engine
-    - Real time
+author: Mike Tsai
+tags:
+  - Vespa
+  - Yahoo
+  - Opensource
+  - Search engine
+  - Real time
 toc: true
-thumbnail: https://image.slidesharecdn.com/vespa-190522070501/95/big-data-serving-the-last-frontier-processing-and-inference-at-scale-in-realtime-1-638.jpg?cb=1558508775
+thumbnail: >-
+  https://image.slidesharecdn.com/vespa-190522070501/95/big-data-serving-the-last-frontier-processing-and-inference-at-scale-in-realtime-1-638.jpg?cb=1558508775
+categories: []
+date: 2020-08-02 15:57:00
 ---
 
 # Vespa ai 筆記 (一)

@@ -1,16 +1,19 @@
----
 title: 幫網站畫圖標
-date: 2020-08-02 14:50:50
-tags: 
-    - Icon
-    - Design
+author: Mike Tsai
+tags:
+  - Icon
+  - Design
 toc: true
-thumbnail: https://image.freepik.com/free-vector/design-word-concept_23-2147844787.jpg
+thumbnail: 'https://image.freepik.com/free-vector/design-word-concept_23-2147844787.jpg'
+categories: []
+date: 2020-08-02 14:50:00
 ---
 
 ## 幫網站畫圖標
 
 最近在瀏覽網站時突然覺得netflix 的圖標讓人印象深刻，突然想到自己的網站上一直沒有圖標，於是決定來幫網站加個圖標ＸＤ
+
+<!-- more -->
 
 ![](https://d2.alternativeto.net/dist/icons/netflix_98388.png?width=64&height=64&mode=crop&upscale=false)
 > netflix 圖標
