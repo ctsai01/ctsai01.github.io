@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Mike&#39;s Blog</title>
+  <icon>http://ctsai01.github.io/icon.png</icon>
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://ctsai01.github.io/"/>
+  <updated>2021-10-13T14:28:08.005Z</updated>
+  <id>http://ctsai01.github.io/</id>
+  
+  <author>
+    <name>Mike Tsai</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>解除 Mega 單日流量限制</title>
+    <link href="http://ctsai01.github.io/2021/10/13/crack_mega_limit/"/>
+    <id>http://ctsai01.github.io/2021/10/13/crack_mega_limit/</id>
+    <published>2021-10-13T17:11:00.000Z</published>
+    <updated>2021-10-13T14:28:08.005Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h1&gt;解除 Mega 流量限制 (2021/04)&lt;/h1&gt;
+&lt;h2 id=&quot;問題描述&quot;&gt;問題描述&lt;/h2&gt;
+&lt;p&gt;Mega 每日有 5GB 流量限制，若要下載更大的檔案則需要付費升級。&lt;/p&gt;
+&lt;h2 id=&quot;針對大檔案下載解法&quot;&gt;針對大檔案下載解法&lt;/h2&gt;
+&lt;p&gt;若要下載超過 5 GB 檔案可以使用以下方式完成下載&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;等待 6 小時冷卻時間  (免費, 耗時間)&lt;/li&gt;
+&lt;li&gt;升級付費會員 (付費)&lt;/li&gt;
+&lt;li&gt;透過 proxy 繞過 下載限制 (免費)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;本篇文章會針對第三種方式進行大檔案下載，&lt;br&gt;
+並使用國外大大所開源的專案 &lt;code&gt;megabasterd&lt;/code&gt; 進行 Proxy 設定, 透過幾步驟簡單設定即可繞過檔案限制。&lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+      <category term="Java" scheme="http://ctsai01.github.io/tags/Java/"/>
+    
+      <category term="Mega" scheme="http://ctsai01.github.io/tags/Mega/"/>
+    
+      <category term="Limit" scheme="http://ctsai01.github.io/tags/Limit/"/>
+    
+      <category term="Downloader" scheme="http://ctsai01.github.io/tags/Downloader/"/>
+    
+      <category term="Tool" scheme="http://ctsai01.github.io/tags/Tool/"/>
+    
+      <category term="Api" scheme="http://ctsai01.github.io/tags/Api/"/>
+    
+      <category term="Hack" scheme="http://ctsai01.github.io/tags/Hack/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Vespa ai 筆記 (一)</title>
+    <link href="http://ctsai01.github.io/2020/08/02/vepsa_note_1/"/>
+    <id>http://ctsai01.github.io/2020/08/02/vepsa_note_1/</id>
+    <published>2020-08-02T15:57:00.000Z</published>
+    <updated>2021-10-13T14:28:08.005Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h1&gt;Vespa ai 筆記 (一)&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&quot;https://lh3.googleusercontent.com/NO5yMo6U2uvERXR9aqsAx39P8sSiFV85a5ocAPNYNPOM65vi1PoVG_RxIyiW9RJr3A7rrH-veZSzznSh2pabuG9k-2sAQvZQ4jwhmjRbrTxsXfKT9fFDljz_fADqaItjZa8hSOYhNlw=w1200&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;Vespa-是什麼&quot;&gt;Vespa 是什麼&lt;/h2&gt;
+&lt;p&gt;一般講到&lt;a href=&quot;https://vespa.ai/&quot;&gt;vespa&lt;/a&gt; 通常第一個聯想到的往往是某個機車品牌XD，然而除了機車品牌外它同時也是一個&lt;a href=&quot;https://github.com/vespa-engine/vespa&quot;&gt;開源&lt;/a&gt;的搜索引擎，Vespa 由 Yahoo! ( verizon media ) 於 2017年9月發布， Vespa 用於對海量數據集進行低延遲計算的引擎，它負責存儲和索引數據資料。同時 Vespa 中也提供了: Indexing, Searching, Ranking, Grouping，等等許多自定義的擴展功能。&lt;/p&gt;
+&lt;p&gt;來看看官方的描述：&lt;br&gt;
+&lt;img src=&quot;https://lh3.googleusercontent.com/0AI2Cirz3tGEEGa-KmmbBUUNjtrtiN-GlRacGY6X4SRkzK6AcWXaz0jsMd_WleQrQAPw23tXf0jFiec7GqBv-WUUjQrq81ezZbhanYtAk16hn1LJvIOyT8dr7icliOAvJ9K87YwT_0M=w1200&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;第一次看到是不是會有種不明覺厲的感覺XD&lt;/p&gt;
+&lt;/blockquote&gt;
+    
+    </summary>
+    
+    
+    
+      <category term="Java" scheme="http://ctsai01.github.io/tags/Java/"/>
+    
+      <category term="Vespa" scheme="http://ctsai01.github.io/tags/Vespa/"/>
+    
+      <category term="Yahoo" scheme="http://ctsai01.github.io/tags/Yahoo/"/>
+    
+      <category term="Opensource" scheme="http://ctsai01.github.io/tags/Opensource/"/>
+    
+      <category term="Search engine" scheme="http://ctsai01.github.io/tags/Search-engine/"/>
+    
+      <category term="Real time" scheme="http://ctsai01.github.io/tags/Real-time/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>幫網站畫圖標</title>
+    <link href="http://ctsai01.github.io/2020/08/02/icon_design/"/>
+    <id>http://ctsai01.github.io/2020/08/02/icon_design/</id>
+    <published>2020-08-02T14:50:00.000Z</published>
+    <updated>2021-10-13T14:28:08.005Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;幫網站畫圖標&quot;&gt;幫網站畫圖標&lt;/h2&gt;
+&lt;p&gt;最近在瀏覽網站時突然覺得netflix 的圖標讓人印象深刻，突然想到自己的網站上一直沒有圖標，於是決定來幫網站加個圖標ＸＤ&lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+      <category term="Icon" scheme="http://ctsai01.github.io/tags/Icon/"/>
+    
+      <category term="Design" scheme="http://ctsai01.github.io/tags/Design/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2019.12 九州旅遊</title>
+    <link href="http://ctsai01.github.io/2019/12/11/2019_12_Kyushu/"/>
+    <id>http://ctsai01.github.io/2019/12/11/2019_12_Kyushu/</id>
+    <published>2019-12-11T16:22:00.000Z</published>
+    <updated>2021-10-13T14:28:08.005Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h1&gt;2019.12 九州旅遊&lt;/h1&gt;
+&lt;h2 id=&quot;前言&quot;&gt;前言&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;十月底剛結束了4 個月的軍事訓練役，距離原先12月開始工作時間還有一個月，&lt;br&gt;
+剛好又看到 Facebook 上面的廣告寫到日北楓葉盛開，&lt;br&gt;
+心血來潮下就決定跟著家人一起到日本進行旅遊，&lt;br&gt;
+而過去跟父母出遊往往都是跟團，&lt;br&gt;
+不過因為過往經驗跟團往往時間較為緊湊，&lt;br&gt;
+於是這次選自由行的方式進行旅遊。&lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+      <category term="Japan" scheme="http://ctsai01.github.io/tags/Japan/"/>
+    
+      <category term="Kyushu" scheme="http://ctsai01.github.io/tags/Kyushu/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>解題常用排序演算法 (附上動圖)</title>
+    <link href="http://ctsai01.github.io/2019/11/20/sort_gif/"/>
+    <id>http://ctsai01.github.io/2019/11/20/sort_gif/</id>
+    <published>2019-11-20T15:44:00.000Z</published>
+    <updated>2021-10-13T14:28:08.005Z</updated>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;排序演算法是許多題目的基礎概念，解題時有許多技巧也是由排序演算法所衍生，使用 python3 實作，並且附上網路的動態圖片。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;簡單排序-O-N-2&quot;&gt;簡單排序 - O( N^2 )&lt;/h2&gt;
+&lt;hr&gt;
+&lt;h3 id=&quot;Bubble-Sort&quot;&gt;Bubble Sort&lt;/h3&gt;
+&lt;figure class=&quot;highlight python&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;# 兩兩相比, 將大的放到後面， 每一回合會把一個key 放到正確位置(最後方的key)&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;bubble_sort&lt;/span&gt;&lt;span class=&quot;params&quot;&gt;(nums)&lt;/span&gt;:&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    l = len(nums)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;keyword&quot;&gt;for&lt;/span&gt; i &lt;span class=&quot;keyword&quot;&gt;in&lt;/span&gt; range(l):&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        &lt;span class=&quot;keyword&quot;&gt;for&lt;/span&gt; j &lt;span class=&quot;keyword&quot;&gt;in&lt;/span&gt; range(i&lt;span class=&quot;number&quot;&gt;-1&lt;/span&gt;):&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;            &lt;span class=&quot;keyword&quot;&gt;if&lt;/span&gt; nums[i] &amp;lt; nums[j]:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;                nums[i] , nums[j] = nums[j], nums[i]&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;GIF&lt;br&gt;
+&lt;img src=&quot;https://thepracticaldev.s3.amazonaws.com/i/m4zwhvxf6ujdrvt9xoq5.gif&quot; alt=&quot;link text&quot;&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;圖片來源： &lt;a href=&quot;https://wangonya.com/blog/js-sort-1/&quot;&gt;https://wangonya.com/blog/js-sort-1/&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;more&quot;&gt;
+    
+    </summary>
+    
+    
+    
+      <category term="Leetcode" scheme="http://ctsai01.github.io/tags/Leetcode/"/>
+    
+      <category term="Sort" scheme="http://ctsai01.github.io/tags/Sort/"/>
+    
+      <category term="Algorithm" scheme="http://ctsai01.github.io/tags/Algorithm/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2019 淘寶雙十一購物</title>
+    <link href="http://ctsai01.github.io/2019/11/11/2019_taobao_shopping/"/>
+    <id>http://ctsai01.github.io/2019/11/11/2019_taobao_shopping/</id>
+    <published>2019-11-11T15:58:00.000Z</published>
+    <updated>2021-10-13T14:28:08.005Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h1&gt;2019 淘寶雙十一購物&lt;/h1&gt;
+&lt;p&gt;以下為雙十一的解釋 擷取自wikipedia&lt;br&gt;
+&lt;em&gt;雙十一（英文：double 11），是指每年11月11日的大型促銷活動，最早起源於中國電商巨頭阿里巴巴旗下購物網站在2009年11月11日舉辦的「淘寶商城促銷日」，現已演變成全行業一年一度的覆蓋線上線下的購物活動，及影響全球零售業的消費現象。「雙十一」的發起者阿里巴巴CEO張勇將雙十一稱為「商業界的奧林匹克」[1]。2012年11月11日網路購物全日銷售額超過美國網路星期一，成為全球最大的網際網路的購物節日。[2]&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;是許多商家都會在雙十一展開特價，今年當然也不意外許多商家也展開特價，而我抱著看看的心態到淘寶看看，結果一個禮拜後這些東西就莫名奇妙出現在我家了…&lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+      <category term="Shopping" scheme="http://ctsai01.github.io/tags/Shopping/"/>
+    
+      <category term="EC" scheme="http://ctsai01.github.io/tags/EC/"/>
+    
+      <category term="e-commerce" scheme="http://ctsai01.github.io/tags/e-commerce/"/>
+    
+      <category term="Taobao" scheme="http://ctsai01.github.io/tags/Taobao/"/>
+    
+  </entry>
+  
+  <entry>
+    <title> 部落格的誕生</title>
+    <link href="http://ctsai01.github.io/2019/10/31/blog_init/"/>
+    <id>http://ctsai01.github.io/2019/10/31/blog_init/</id>
+    <published>2019-10-31T17:22:00.000Z</published>
+    <updated>2021-10-13T14:28:08.005Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;退伍後的生活&quot;&gt;退伍後的生活&lt;/h2&gt;
+&lt;p&gt;回想起兩年前的今天，我還是個剛上研究所兩個月的碩一新生，而兩年後的今天我已從碩班畢業，並且完成兵役，說來實在非常幸運,我在論文口試日期都還有確定日期的情況下，便申請了提前入伍，而也如願在 7/18 入伍，並在 10/30 順利的結束兵役，真的非常感謝教授，而在當兵的這段期間其實我也一直在思考未來的方向。&lt;/p&gt;
+&lt;p&gt;退伍後距離答應公司到職日其實還有一個月左右的時間，於是就利用這個月的時間到新竹找女友，大約一週三天，每天的行程就是起床載她去上班然後在自己到圖書館唸書，雖然已經在工作的朋友都建議應該要出去玩的,因為上班後可以利用的自由時間會變得非常短，但想想之後短時間內應該沒有機會能跟女友一起住，所以就利用這一個月的時間體驗一下外宿生活，畢竟除了去年暑假到台中的實習在台中住了兩個月外從小到大我都是住家裡XD&lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+      <category term="Blog" scheme="http://ctsai01.github.io/tags/Blog/"/>
+    
+      <category term="Django" scheme="http://ctsai01.github.io/tags/Django/"/>
+    
+      <category term="Python" scheme="http://ctsai01.github.io/tags/Python/"/>
+    
+      <category term="GCP" scheme="http://ctsai01.github.io/tags/GCP/"/>
+    
+      <category term="GAE" scheme="http://ctsai01.github.io/tags/GAE/"/>
+    
+      <category term="Google Cloud Platform" scheme="http://ctsai01.github.io/tags/Google-Cloud-Platform/"/>
+    
+      <category term="Google App Engine" scheme="http://ctsai01.github.io/tags/Google-App-Engine/"/>
+    
+      <category term="MySQL" scheme="http://ctsai01.github.io/tags/MySQL/"/>
+    
+  </entry>
+  
+</feed>
