@@ -9,7 +9,7 @@ branches:
 before_script:
   - npm install
   - hexo cl
-script:
+script:  
   - hexo generate # generate static files
 deploy:
   provider: pages
@@ -17,5 +17,4 @@ deploy:
   github-token: $GITHUB_TOKEN
   keep-history: true
   on:
-    branch: master
-  local-dir: public
+    branch: master  
