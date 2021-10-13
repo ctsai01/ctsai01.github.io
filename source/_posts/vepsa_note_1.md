@@ -6,6 +6,7 @@ tags:
   - Opensource
   - Search engine
   - Real time
+  - Java
 toc: true
 thumbnail: >-
   https://image.slidesharecdn.com/vespa-190522070501/95/big-data-serving-the-last-frontier-processing-and-inference-at-scale-in-realtime-1-638.jpg?cb=1558508775
